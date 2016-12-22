@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #008080;
+	font-size: 20px;
+}
+
+#banner{
+	background-color: #003333;
+	padding-bottom: 105px;
+	text-align:center;
+	text-decoration:blink;
+	color:white;
+}
+#nav_bar,#nav_bar ul,#nav_bar li,#nav_bar a{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+#nav_bar ul{
+	float:left;
+}
+#nav_bar li{
+	display:inline-block;
+	margin-top:75px;
+	
+}
+#nav_bar a:visited,#nav_bar a:link,#nav_bar a{
+	padding:0px 20px;
+	text-align:center;
+	text-decoration:none;
+	font-weight:bold;
+	color:white;
+	
+}
+#nav_bar a:hover{
+	
+}
+#content{
+	clear:both;
+	margin:0px 50px;
+}
+#content ul{
+	margin:0px;
+	padding:0px;
+}
+#content li{
+	list-style: dot;
+	margin: 5px 0px;
+}
+#footer,#footer ul,#footer li,#footer a{
+	list-style: none;
+	text-align: center;
+	padding:0px;
+	margin:0px;	
+}
+#footer{
+	margin-top:100px;
+}
+#footer li{
+	display:inline-block;
+}
+#footer a:visited,#footer a:link,#footer a{
+	text-decoration:none;
+	font-weight:bold;
+	color:#300;
+}
+#footer p{
+	background-color: #003333;
+}
+.textbox {
+margin left: 20px;
+margin right: 10px;
+margin bottom: 20px;
+float: right;  
+}
+
+
+	
